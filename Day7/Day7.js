@@ -1,5 +1,4 @@
 const fs = require("fs");
-const { disconnect } = require("process");
 
 const input = fs
     .readFileSync("Day7Input.txt", { encoding: "utf-8" })
